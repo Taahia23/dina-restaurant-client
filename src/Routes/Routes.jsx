@@ -29,7 +29,7 @@ const router = createBrowserRouter([
             {
                 path: '/nav',
                 element: <Navbar></Navbar>,
-                loader : () => fetch('http://localhost:5000/user')
+                loader : () => fetch('https://linquini-server.vercel.app/user')
             },
             {
                 path: '/blog',
@@ -42,12 +42,12 @@ const router = createBrowserRouter([
             {
                 path: '/updateFood/:id',
                 element: <UpdateFood></UpdateFood>,
-                loader: ({params}) => fetch(`http://localhost:5000/addFood/${params.id}`)
+                loader: ({params}) => fetch(`https://linquini-server.vercel.app/addFood/${params.id}`)
             },
             {
                 path: '/myAddedFood',
                 element: <MyAddedFoodItems></MyAddedFoodItems>,
-                loader : () => fetch('http://localhost:5000/addFood')
+                loader : () => fetch('https://linquini-server.vercel.app/addFood')
             },
             {
                 path: '/myOder',
@@ -56,18 +56,18 @@ const router = createBrowserRouter([
             {
                 path: '/foodPurchasePage/:id',
                 element: <FoodPurchasePage></FoodPurchasePage>,
-                loader : ({params}) => fetch(`http://localhost:5000/foodItems/${params.id}`)
+                loader : ({params}) => fetch(`https://linquini-server.vercel.app/foodItems/${params.id}`)
             },
             {
                 path: '/singleFoodPage/:id',
                 element: <PrivateRoute><SingleFoodPage></SingleFoodPage></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/foodItems/${params.id}`)
+                loader: ({ params }) => fetch(`https://linquini-server.vercel.app/foodItems/${params.id}`)
             },
 
             {
                 path: '/allFoods',
                 element: <AllFood></AllFood>,
-                loader: () => fetch('http://localhost:5000/foodItemsCount')
+                loader: () => fetch('https://linquini-server.vercel.app/foodItemsCount')
             },
             {
                 path: '/register',

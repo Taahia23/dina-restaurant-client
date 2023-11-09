@@ -25,7 +25,7 @@ const UpdateFood = () => {
         console.log(updatedFood);
 
         // send data to the server
-        fetch(`http://localhost:5000/addFood/${_id}`, {
+        fetch(`https://linquini-server.vercel.app/addFood/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json',

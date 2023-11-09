@@ -17,7 +17,7 @@ const MyOrderRow = ({ order , orders, setOrders }) => {
 
             console.log('delete confirm');
 
-            fetch(`http://localhost:5000/purchaseFood/${id}`, {
+            fetch(`https://linquini-server.vercel.app/purchaseFood/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

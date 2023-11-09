@@ -46,7 +46,7 @@ const FoodPurchasePage = () => {
 
         console.log(orderedFood);
 
-        fetch('http://localhost:5000/purchaseFood', {
+        fetch('https://linquini-server.vercel.app/purchaseFood', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

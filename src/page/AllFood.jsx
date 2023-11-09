@@ -20,7 +20,7 @@ const AllFood = () => {
     console.log(pages);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/foodItems?page=${currentPage}&size=${itemsPerPage}`)
+        fetch(`https://linquini-server.vercel.app/foodItems?page=${currentPage}&size=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => setCards(data))
     }, [currentPage, itemsPerPage]);

@@ -21,7 +21,7 @@ const MyAddedFoodItemCard = ({ food, foods, setFoods }) => {
 
                 console.log('delete confirm');
 
-                fetch(`http://localhost:5000/addFood/${_id}`, {
+                fetch(`https://linquini-server.vercel.app/addFood/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

@@ -48,7 +48,7 @@ const Register = () => {
                 const createdAt = result.user?.metadata?.creationTime;
                 const user = { name, email, photo, createdAt: createdAt };
 
-                fetch('http://localhost:5000/user', {
+                fetch('https://linquini-server.vercel.app/user', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

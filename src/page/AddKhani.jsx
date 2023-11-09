@@ -20,7 +20,7 @@ const AddKhani = () => {
         console.log(newFood);
 
         // send data to the server
-        fetch('http://localhost:5000/foodItems', {
+        fetch('https://linquini-server.vercel.app/foodItems', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

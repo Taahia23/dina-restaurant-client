@@ -23,7 +23,7 @@ const MyOrder = () => {
         //     .then(data => {
         //         setOrders(data)
         //     })
-    }, [url])
+    }, [url]);
     return (
         <div>
               <div>

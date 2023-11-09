@@ -8,7 +8,7 @@ const MyOrder = () => {
     const { user } = useContext(AuthContext);
     const [orders, setOrders] = useState([])
 
-    const url = (`http://localhost:5000/purchaseFood?email=${user?.email}`);
+    const url = (`http://localhost:5000/purchaseFood?email=${user?.email}`)
    
 
     useEffect(() => {

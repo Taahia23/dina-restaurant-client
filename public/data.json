@@ -1,0 +1,137 @@
+[
+    {
+        "foodName": "Spaghetti Carbonara",
+        "foodImage": "https://i.ibb.co/tqpkJLy/Spaghetti-Carbonara.jpg",
+        "foodCategory": "Pasta",
+        "price": 12.99,
+        "madeBy": "Chef John",
+        "foodOrigin": "Italy",
+        "shortDescrip": "Spicy and flavorful chicken enchiladas, rolled in soft corn tortillas and smothered in a zesty tomato and chili pepper sauce, topped with melted cheese and fresh cilantro."
+    },
+    {
+        "foodName": "Margherita Pizza",
+        "foodImage": "https://i.ibb.co/GsDjjhS/Margherita-Pizza.jpg",
+        "foodCategory": "Pizza",
+        "price": 10.49,
+        "madeBy": "Chef Ricardo",
+        "foodOrigin": "Mexico",
+        "shortDescrip": "Spicy and flavorful chicken enchiladas, rolled in soft corn tortillas and smothered in a zesty tomato and chili pepper sauce, topped with melted cheese and fresh cilantro."
+    },
+    {
+        "foodName": "Caesar Salad",
+        "foodImage": "https://i.ibb.co/Tq37BDv/Caesar-Salad.jpg",
+        "foodCategory": "Salad",
+        "price": 7.99,
+        "madeBy": "Chef Emma",
+        "foodOrigin": "France",
+        "shortDescrip": "Classic coq au vin made with tender chicken, mushrooms, and aromatic vegetables braised in a rich red wine sauce, creating a delightful blend of flavors."
+    },
+    {
+        "foodName": "Grilled Chicken Sandwich",
+        "foodImage": "https://i.ibb.co/64d8Gmp/Grilled-Chicken-Sandwich.jpg",
+        "foodCategory": "Sandwich",
+        "price": 8.99,
+        "madeBy": "Chef Maria",
+        "foodOrigin": "Greece",
+        "shortDescrip": "Traditional moussaka with layers of eggplant, minced meat, and creamy béchamel sauce, baked to golden perfection and served with a side of crisp salad."
+    },
+    {
+        "foodName": "Sushi Roll Combo",
+        "foodImage": "https://i.ibb.co/FK49Lk1/Sushi-Roll.jpg",
+        "foodCategory": "Sushi",
+        "price": 15.99,
+        "madeBy": "Chef William",
+        "foodOrigin": "India",
+        "shortDescrip": "Fragrant butter chicken cooked in a rich and creamy tomato-based sauce, infused with a blend of aromatic spices, and served with fluffy basmati rice and warm naan bread."
+    },
+    {
+        "foodName": "Beef Burger",
+        "foodImage": "https://i.ibb.co/tpngcdY/Beef-Burger.jpg",
+        "foodCategory": "Burger",
+        "price": 9.99,
+        "madeBy": "Chef Isabella",
+        "foodOrigin": "Japan",
+        "shortDescrip": "Fresh and savory sushi rolls filled with delicate slices of raw fish, crisp vegetables, and seasoned rice, served with wasabi, soy sauce, and pickled ginger on the side."
+    },
+    {
+        "foodName": "Turkey burger",
+        "foodImage": "https://i.ibb.co/5R1cXBD/burger1.jpg",
+        "foodCategory": "Burger",
+        "price": 11.49,
+        "madeBy": "Chef Alex",
+        "foodOrigin": "Thailand",
+        "shortDescrip": "Authentic Pad Thai with stir-fried rice noodles, juicy shrimp, crunchy peanuts, and a perfect balance of sweet and tangy flavors, garnished with fresh lime and cilantro."
+    },
+    {
+        "foodName": "Bean burger",
+        "foodImage": "https://i.ibb.co/G3tqp4C/burger2.jpg",
+        "foodCategory": "Burger",
+        "price": 10.99,
+        "madeBy": "Chef Sophie",
+        "foodOrigin": "Lebanon",
+        "shortDescrip": "Tender and juicy shawarma wraps filled with succulent slices of marinated meat, fresh vegetables, and a generous drizzle of creamy garlic sauce, wrapped in warm pita bread."
+    },
+    {
+        "foodName": "Egg Sandwich",
+        "foodImage": "https://i.ibb.co/B6Q57s9/sand1.jpg",
+        "foodCategory": "Sandwich",
+        "price": 4.99,
+        "madeBy": "Chef Michael",
+        "foodOrigin": "Vietnam",
+        "shortDescrip": "Steaming hot bowl of pho, a Vietnamese noodle soup brimming with tender slices of beef, fresh herbs, and rice noodles in a fragrant and savory broth, served with a side of lime and bean sprouts."
+    },
+    {
+        "foodName": "Ham Sandwich",
+        "foodImage": "https://i.ibb.co/HhBpKM5/sand2.jpg",
+        "foodCategory": "Sandwich",
+        "price": 6.49,
+        "madeBy": "Chef Emily",
+        "foodOrigin": "Spain",
+        "shortDescrip": "Classic paella filled with a medley of seafood, saffron-infused rice, and a colorful array of bell peppers, peas, and onions, delivering a burst of flavors reminiscent of the Spanish coast."
+    },
+    {
+        "foodName": "Fusilli",
+        "foodImage": "https://i.ibb.co/Rv4SKpJ/pasta1.jpg",
+        "foodCategory": "Pasta",
+        "price": 3.99,
+        "madeBy": "Chef Daniel",
+        "foodOrigin": "Morocco",
+        "shortDescrip": "Hearty and aromatic tagine featuring tender lamb, sweet prunes, and a blend of warm spices, slow-cooked to perfection and served with fluffy couscous and roasted almonds."
+    },
+    {
+        "foodName": "Fettuccine",
+        "foodImage": "https://i.ibb.co/6msjcZc/pasta2.jpg",
+        "foodCategory": "Pasta",
+        "price": 14.99,
+        "madeBy": "Chef Chloe",
+        "foodOrigin": "China",
+        "shortDescrip": "Mouthwatering Peking duck, crispy and golden on the outside, tender and juicy on the inside, served with thin pancakes, hoisin sauce, and fresh scallions for a delightful combination of flavors and textures."
+    },
+    {
+        "foodName": "Margherita Pizza",
+        "foodImage": "https://i.ibb.co/W02hBGW/PIZZA1.jpg",
+        "foodCategory": "Pizza",
+        "price": 11.99,
+        "madeBy": "Chef Mark",
+        "foodOrigin": "United States",
+        "shortDescrip": "Indulgent New York-style cheesecake with a thick and creamy texture, a buttery graham cracker crust, and a luscious layer of sweet and tangy strawberry topping, perfect for any dessert lover."
+    },
+    {
+        "foodName": "Meat Pizza",
+        "foodImage": "https://i.ibb.co/9nK1h6Y/pizza2.jpg",
+        "foodCategory": "Pizza",
+        "price": 9.49,
+        "madeBy": "Chef Olivia",
+        "foodOrigin": "Brazil",
+        "shortDescrip": "Succulent Brazilian churrasco, a variety of grilled meats such as juicy beef, tender chicken, and flavorful sausages, served with chimichurri sauce, farofa, and a refreshing caipirinha cocktail."
+    },
+    {
+        "foodName": "Fruit Salad",
+        "foodImage": "https://i.ibb.co/k9hQQn3/salad1.jpg",
+        "foodCategory": "Salad",
+        "price": 5.99,
+        "madeBy": "Chef Andrew",
+        "foodOrigin": "Korea",
+        "shortDescrip": "Satisfying and spicy kimchi jjigae, a traditional Korean stew made with fermented kimchi, tofu, and pork, delivering a perfect balance of heat and tanginess, best enjoyed with a side of steamed rice."
+    }
+]

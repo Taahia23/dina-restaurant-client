@@ -1,0 +1,44 @@
+[
+    {
+        "_id" : 1,
+        "foodName": "Spaghetti Carbonara",
+        "foodImage": "https://i.ibb.co/tqpkJLy/Spaghetti-Carbonara.jpg",
+        "foodCategory": "Pasta",
+        "price": 12.99
+    },
+    {
+        "_id" : 2,
+        "foodName": "Margherita Pizza",
+        "foodImage": "https://i.ibb.co/GsDjjhS/Margherita-Pizza.jpg",
+        "foodCategory": "Pizza",
+        "price": 10.49
+    },
+    {
+        "_id" : 3,
+        "foodName": "Caesar Salad",
+        "foodImage": "https://i.ibb.co/Tq37BDv/Caesar-Salad.jpg",
+        "foodCategory": "Salad",
+        "price": 7.99
+    },
+    {
+        "_id" : 4,
+        "foodName": "Grilled Chicken Sandwich",
+        "foodImage": "https://i.ibb.co/64d8Gmp/Grilled-Chicken-Sandwich.jpg",
+        "foodCategory": "Sandwich",
+        "price": 8.99
+    },
+    {
+        "_id": 5,
+        "foodName": "Sushi Roll Combo",
+        "foodImage": "https://i.ibb.co/FK49Lk1/Sushi-Roll.jpg",
+        "foodCategory": "Sushi",
+        "price": 15.99
+    },
+    {
+        "_id" : 6,
+        "foodName": "Beef Burger",
+        "foodImage": "https://i.ibb.co/tpngcdY/Beef-Burger.jpg",
+        "foodCategory": "Burger",
+        "price": 9.99
+    }
+]

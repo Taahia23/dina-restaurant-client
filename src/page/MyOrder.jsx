@@ -14,7 +14,7 @@ const MyOrder = () => {
     useEffect(() => {
         axios.get(url, {withCredentials:true})
         .then(res => {
-            setOrders(res.data);
+            setOrders(res.data)
         })
 
 

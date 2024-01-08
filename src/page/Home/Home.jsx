@@ -4,6 +4,7 @@ import TopFoodSection from "../../components/layout/TopFoodSection";
 import Reservation from "../../components/layout/Reservation";
 import ExtraSection from "../../components/layout/extraSection";
 import { Helmet } from "react-helmet";
+import FAQ from "./FAQ";
 
 const Home = () => {
     const cards = useLoaderData()
@@ -21,6 +22,7 @@ const Home = () => {
             <Reservation></Reservation>
 
             <ExtraSection></ExtraSection>
+            <FAQ></FAQ>
         </div>
     );
 };

@@ -57,7 +57,10 @@ const AllFood = () => {
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-[1300px] lg:mx-auto">
+            <div>
+                <h1 className="text-6xl text-center font-bold font-mono py-32">All Food Items</h1>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-[1300px] lg:mx-auto ">
                 {
                     cards.map(card => <TopFoodCard key={card._id} card={card}></TopFoodCard>)
                 }
